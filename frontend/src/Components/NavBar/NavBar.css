@@ -1,0 +1,50 @@
+.Title{
+    position: absolute;
+    width: 116px;
+    height: 57px;
+    left: 40px;
+    top: 26px;    
+}
+
+.W{
+position: absolute;
+width: 19px;
+height: 15px;
+left: 48px;
+top: 68px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+}
+
+.G{
+    position: absolute;
+width: 26px;
+height: 15px;
+left: 81px;
+top: 68px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+}
+
+.A{
+    position: absolute;
+width: 38px;
+height: 15px;
+left: 115px;
+top: 68px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+
+}
