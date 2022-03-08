@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import './InputBar.css';
 
@@ -9,7 +9,7 @@ function InputBar() {
 
   const addTodo = (e) => {
     if (!todo) {
-      alert("Enter Todo");
+      alert("Enter A URL");
     }
     else {
       e.preventDefault();
