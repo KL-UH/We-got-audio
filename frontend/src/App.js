@@ -1,13 +1,21 @@
 import React from 'react';
 import './App.css';
-import NavBar from './Components/NavBar/NavBar';
-import InputBar from './Components/InputBar/InputBar';
+import Home from './Components/Home/Home';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import File from './Components/File/File';
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <InputBar />
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="file" exact element={<File />} />
+        </Routes>
+      </BrowserRouter>
+
     </div>
   );
 }
