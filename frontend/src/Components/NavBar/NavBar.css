@@ -1,5 +1,5 @@
 .Title{
-    position: absolute;
+    position: fixed;
     width: 116px;
     height: 57px;
     left: 40px;
@@ -7,7 +7,7 @@
 }
 
 .W{
-position: absolute;
+position: fixed;
 width: 19px;
 height: 15px;
 left: 48px;
@@ -21,7 +21,7 @@ line-height: 15px;
 }
 
 .G{
-    position: absolute;
+    position: fixed;
 width: 26px;
 height: 15px;
 left: 90px;
@@ -35,7 +35,7 @@ line-height: 15px;
 }
 
 .A{
-    position: absolute;
+    position: fixed;
 width: 38px;
 height: 15px;
 left: 130px;
