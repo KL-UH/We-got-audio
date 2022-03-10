@@ -2,11 +2,14 @@ import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import { Outlet, Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import FileUpload from '../FileUpload/FileUpload';
 
 function File() {
   return (
     <div className='File'>
         <NavBar />
+
+        <FileUpload />
 
         {/* Navigate to URL and File */}
       <div className='toggle'>
