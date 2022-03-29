@@ -19,25 +19,7 @@ function InputBar() {
     }
   };
 
-  function componentDidMount() {
-    fetch("http://localhost:8000/url/")
-      .then(response => {
-        if (response.status > 400) {
-          return this.setState(() => {
-            return { placeholder: "Something went wrong!" };
-          });
-        }
-        return response.json();
-      })
-      .then(data => {
-        this.setState(() => {
-          return {
-            data,
-            loaded: true
-          };
-        });
-      });
-  }
+  
 
   return (
     <>
@@ -52,15 +34,7 @@ function InputBar() {
           </Button>
         </Form>
 
-        <ul>
-        {this.state.data.map(url => {
-          return (
-            <li >
-              {input_url}
-            </li>
-          );
-        })}
-      </ul>
+        
       </div>
     </>
   )
