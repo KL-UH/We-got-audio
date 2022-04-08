@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* Title styles */
+.Title{
+    position: fixed;
+    width: 116px;
+    height: 57px;
+    left: 40px;
+    top: 26px;    
+}
+
+.W{
+position: fixed;
+width: 19px;
+height: 15px;
+left: 48px;
+top: 68px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+}
+
+.G{
+    position: fixed;
+width: 26px;
+height: 15px;
+left: 90px;
+top: 68px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+}
+
+.A{
+    position: fixed;
+width: 38px;
+height: 15px;
+left: 130px;
+top: 68px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+
+}
+
+/* Input Style */
+
+.Search{
+    position: fixed;
+    top: 20%;
+    left: 27%;/* Default 30%*/
+    width: 40%;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.button{
+    position: fixed;
+    top: 20%;
+    left: 68%;/* Default 40 */
+}
+
+/* Navigate styles */
+
+.toggle{
+    position: fixed;
+    margin-top: 13%;
+    left: 40%;
+}
+
+.toggle > ul{
+    list-style-type:none;
+    display: flex;
+    padding: 1rem 4rem;
+}
+
+.button1{
+    margin-right: 40px;
+}
+
+.LinkTag{
+    text-decoration: none;
+}
+
