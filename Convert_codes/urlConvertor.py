@@ -3,6 +3,8 @@ from pytube import YouTube
 import os
 import sys
 
+url = sys.argv[1]
+
 # url input from user
 yt = YouTube(url)
 

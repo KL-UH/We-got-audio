@@ -23,11 +23,11 @@
     </section>
 
     <section>
-        <div class="upload-btn-wrapper">
-            <form action="convertor" method="post">
+        <div>
+            <form action="files" method="POST" enctype="multipart/form-data">
                 {% csrf_token %}
-                <button class="upload">Upload a file</button>
-                <input type="file" name="myfile" />
+                <input type="file" name="myfile" class="file-input__input">
+                <button type="submit" class="btn btn-primary button">Convert</button>
             </form>
         </div>
     </section>

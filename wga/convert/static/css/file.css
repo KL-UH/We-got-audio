@@ -79,7 +79,7 @@ line-height: 15px;
     text-decoration: none;
 }
 
-/* File upload */
+/* File upload 
 
 .upload-btn-wrapper {
     position: fixed;
@@ -87,6 +87,23 @@ line-height: 15px;
     display: inline-block;
     top: 20%;
     left: 44%;
+  }
+
+  */
+
+  .file-input__input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+
+.style-submit{
+    position: absolute;
+    top:40%;
+    left: 54%;
   }
   
   .upload {
