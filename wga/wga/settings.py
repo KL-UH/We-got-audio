@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-from pickle import FALSE, TRUE
+import os
+from pickle import TRUE
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,6 +26,9 @@ SECRET_KEY = 'django-insecure-mgi#_ekg^)l5mifb+_ylgn*4w^hbyv1ck5jgiz5wt!!4+7^=y6
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = TRUE
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
 ALLOWED_HOSTS = []
 
