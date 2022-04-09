@@ -22,15 +22,15 @@
         </div>
     </section>
 
-    <section>
-        <div>
+    
+        <div class="uploadss">
             <form action="files" method="POST" enctype="multipart/form-data">
                 {% csrf_token %}
                 <input type="file" name="myfile" class="file-input__input">
-                <button type="submit" class="btn btn-primary button">Convert</button>
+                <button type="submit" class="btn btn-primary button">Convert</button> 
             </form>
         </div>
-    </section>
+
 
     <section>
         <div class="toggle">
