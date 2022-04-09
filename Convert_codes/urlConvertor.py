@@ -6,7 +6,7 @@ import sys
 url = sys.argv[1]
 
 # url input from user
-yt = YouTube(url)
+yt = YouTube(str(url))
 
 # extract only audio
 video = yt.streams.filter(only_audio=True).first()
